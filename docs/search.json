@@ -1,0 +1,9 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Criando Dahboard com Quarto",
+    "section": "",
+    "text": "Prefácio\nEste é um livro sobre como Cirar Dashboards com Quarto na linguagem R. O Quarto permite a criação de Dashboards em outras linguagens, mas aqui será tratado exclusivamente sobre a linguagem R.\nO foco é como criar dashboards que não demandem de um servidor, ou seja, os dados são armazenados exclusivamente em um arquivo HTML."
+  }
+]

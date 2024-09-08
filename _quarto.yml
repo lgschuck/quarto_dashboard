@@ -1,0 +1,23 @@
+project:
+  type: book
+  output-dir: docs
+
+engine: knitr 
+lang: pt-br
+
+book:
+  title: "Criando Dahboard com Quarto"
+  author: "Luís Gustavo Schuck"
+  date: today
+  chapters:
+    - index.qmd
+    - intro.qmd
+    - referencias.qmd
+
+bibliography: referencias.bib
+
+format:
+  html:
+    theme: cosmo
+ 
+
