@@ -1,5 +1,9 @@
 # Prefácio {.unnumbered}
 
-Este é um livro sobre como Cirar Dashboards com [Quarto](https://quarto.org) na linguagem R. O Quarto permite a criação de Dashboards em outras linguagens, mas aqui será tratado exclusivamente sobre a linguagem R.
+Este é um livro sobre como criar Dashboards com [Quarto](https://quarto.org) na linguagem R. O Quarto permite a criação de Dashboards em outras linguagens, mas aqui será tratado exclusivamente sobre a linguagem R.
 
 O foco é como criar dashboards que não demandem de um servidor, ou seja, os dados são armazenados exclusivamente em um arquivo HTML.
+
+------------------------------------------------------------------------
+
+Última atualização: `r format(file.info('index.qmd')$mtime, '%d/%m/%Y - %H:%M:%S')`

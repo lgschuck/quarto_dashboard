@@ -1,2 +1,16 @@
 # Introdução
 
+A partir da versão 1.4 o [Quarto](https://quarto.org/docs/download/) passou a ter opção de criação de Dashboards. 
+
+
+## O que é um Dashboard?
+
+Basicamente um **Dahboard** é uma forma de exibir em um "local" diversas métricas e indicadores relacionados de um tema específico. 
+
+Uma definição da @tableau_dashboard:
+
+'Um dashboard é uma maneira de exibir vários tipos de dados visuais em um só lugar. Normalmente, um dashboard tem a intenção de transmitir informações diferentes, mas relacionadas, em um formato fácil de digerir'.
+
+------------------------------------------------------------------------
+
+Última atualização: `r format(file.info('intro.qmd')$mtime, '%d/%m/%Y - %H:%M:%S')`

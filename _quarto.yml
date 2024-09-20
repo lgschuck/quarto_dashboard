@@ -6,11 +6,12 @@ engine: knitr
 lang: pt-br
 
 book:
-  title: "Criando Dahboard com Quarto"
+  title: "Criando Dashboards com Quarto"
   author: "Luís Gustavo Schuck"
   date: today
   chapters:
     - index.qmd
+    - autor.qmd
     - intro.qmd
     - referencias.qmd
 
