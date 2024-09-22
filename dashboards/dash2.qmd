@@ -1,0 +1,20 @@
+---
+title: "Dashboard"
+format: 
+    dashboard:
+        embed-resources: true
+---
+
+# Pág. 1
+
+## Coluna 1
+
+```{r}
+hist(mtcars$hp)
+```
+
+## Coluna 2
+
+```{r}
+hist(mtcars$mpg)
+```

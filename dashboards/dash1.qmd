@@ -1,0 +1,12 @@
+---
+title: "Dashboard"
+format: 
+    dashboard:
+        embed-resources: true
+---
+
+# Pág. 1
+
+```{r}
+hist(mtcars$hp)
+```

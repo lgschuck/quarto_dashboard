@@ -5,11 +5,73 @@ A partir da versão 1.4 o [Quarto](https://quarto.org/docs/download/) passou a t
 
 ## O que é um Dashboard?
 
-Basicamente um **Dahboard** é uma forma de exibir em um "local" diversas métricas e indicadores relacionados de um tema específico. 
+Basicamente um **Dahboard** é uma forma de exibir em um "local" diversas informações (métricas, indicadores, gráficos, etc) relacionados a um tema específico. 
 
 Uma definição da @tableau_dashboard:
 
 'Um dashboard é uma maneira de exibir vários tipos de dados visuais em um só lugar. Normalmente, um dashboard tem a intenção de transmitir informações diferentes, mas relacionadas, em um formato fácil de digerir'.
+
+## Cabeçalho
+
+Para cria um dashboard no Quarto basta que seja escolhido o formato 'dashboard'.
+
+```r
+---
+title: "Dashboard"
+format: dashboard
+---
+```
+
+## Marcações de Páginas
+
+As marcações para criação de páginas são feitas com cabeçalhos de nível 1.
+
+````r
+---
+title: "Dashboard"
+format: dashboard
+---
+
+# Pág. 1
+
+```{{r}}
+hist(mtcars$hp)
+```
+````
+
+Este pequeno código após "renderizado" pelo Quarto gerará um dashboard conforme a imagem abaixo:
+
+![](imagens/dash1.png)
+
+## Linhas e Colunas
+
+As linhas e colunas a serem inseridas são usadas com cabeçalho de nível 2. O padrão é orientação em linhas.
+
+````r
+---
+title: "Dashboard"
+format: dashboard
+---
+
+# Pág. 1
+
+## Coluna 1
+
+```{{r}}
+hist(mtcars$hp)
+```
+
+## Coluna 2
+
+```{{r}}
+hist(mtcars$mpg)
+```
+````
+
+Após "renderizado":
+
+![](imagens/dash2.png)
+
 
 ------------------------------------------------------------------------
 

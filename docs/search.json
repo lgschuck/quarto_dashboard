@@ -4,27 +4,69 @@
     "href": "index.html",
     "title": "Criando Dashboards com Quarto",
     "section": "",
-    "text": "Prefácio\nEste é um livro sobre como criar Dashboards com Quarto na linguagem R. O Quarto permite a criação de Dashboards em outras linguagens, mas aqui será tratado exclusivamente sobre a linguagem R.\nO foco é como criar dashboards que não demandem de um servidor, ou seja, os dados são armazenados exclusivamente em um arquivo HTML.\n\nÚltima atualização: 20/09/2024 - 17:02:01"
+    "text": "Prefácio\nEste é um livro sobre como criar Dashboards com Quarto na linguagem R. O Quarto permite a criação de Dashboards em outras linguagens, mas aqui será tratado exclusivamente sobre a linguagem R.\nO foco é como criar dashboards que não demandem de um servidor, ou seja, os dados são armazenados exclusivamente em um arquivo HTML.\n\nÚltima atualização: r format(file.info('index.qmd')$mtime, '%d/%m/%Y - %H:%M:%S')",
+    "crumbs": [
+      "Prefácio"
+    ]
   },
   {
     "objectID": "autor.html",
     "href": "autor.html",
     "title": "Sobre o Autor",
     "section": "",
-    "text": "Luís Gustavo Schuck é aluno do curso de pós-graduação em Ciência de Dados e Big Data da Puc-Minas. É formado em Análise e Desenvolvimento de Sistemas (2023) pela Universidade Feevale e em Gestão Financeira (2013) pelo Centro Universitário Internacional - Uninter. Possui Especialização em Business Analytics (2021) pela Universidade Federal do Rio Grande do Sul - UFRGS, MBA em Administração e Finanças (2017) pelo Centro Universitário Internacional - Uninter e MBA em Gestão Bancária (2015) pelo Centro Universitário Leonardo da Vinci - Uniasselvi. Possui certificação ANBIMA CPA-10 (Certificação Profissional ANBIMA Série-10).\nAtualmente atua como Analista na Unidade de Estratégia e Inteligência de Crédito do Banco do Estado do Rio Grande do Sul (Banrisul).\nUtiliza R desde 2017.\n\nÚltima atualização: 20/09/2024 - 17:02:16"
+    "text": "Luís Gustavo Schuck é aluno do curso de pós-graduação em Ciência de Dados e Big Data da Puc-Minas. É formado em Análise e Desenvolvimento de Sistemas (2023) pela Universidade Feevale e em Gestão Financeira (2013) pelo Centro Universitário Internacional - Uninter. Possui Especialização em Business Analytics (2021) pela Universidade Federal do Rio Grande do Sul - UFRGS, MBA em Administração e Finanças (2017) pelo Centro Universitário Internacional - Uninter e MBA em Gestão Bancária (2015) pelo Centro Universitário Leonardo da Vinci - Uniasselvi. Possui certificação ANBIMA CPA-10 (Certificação Profissional ANBIMA Série-10).\nAtualmente atua como Analista na Unidade de Estratégia e Inteligência de Crédito do Banco do Estado do Rio Grande do Sul (Banrisul).\nUtiliza R desde 2017.\n\nÚltima atualização: r format(file.info('autor.qmd')$mtime, '%d/%m/%Y - %H:%M:%S')",
+    "crumbs": [
+      "Sobre o Autor"
+    ]
   },
   {
-    "objectID": "intro.html#o-que-é-um-dashboard",
-    "href": "intro.html#o-que-é-um-dashboard",
+    "objectID": "intro.html",
+    "href": "intro.html",
     "title": "1  Introdução",
-    "section": "1.1 O que é um Dashboard?",
-    "text": "1.1 O que é um Dashboard?\nBasicamente um Dahboard é uma forma de exibir em um “local” diversas métricas e indicadores relacionados de um tema específico.\nUma definição da Tableau (s.d.):\n‘Um dashboard é uma maneira de exibir vários tipos de dados visuais em um só lugar. Normalmente, um dashboard tem a intenção de transmitir informações diferentes, mas relacionadas, em um formato fácil de digerir’.\n\nÚltima atualização: 20/09/2024 - 17:03:28\n\n\n\n\nTableau. s.d. \"What is a dashboard? A complete overview\". https://www.tableau.com/learn/articles/dashboards/what-is."
+    "section": "",
+    "text": "1.1 O que é um Dashboard?\nBasicamente um Dahboard é uma forma de exibir em um “local” diversas informações (métricas, indicadores, gráficos, etc) relacionados a um tema específico.\nUma definição da Tableau (s.d.):\n‘Um dashboard é uma maneira de exibir vários tipos de dados visuais em um só lugar. Normalmente, um dashboard tem a intenção de transmitir informações diferentes, mas relacionadas, em um formato fácil de digerir’.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introdução</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html#cabeçalho",
+    "href": "intro.html#cabeçalho",
+    "title": "1  Introdução",
+    "section": "1.2 Cabeçalho",
+    "text": "1.2 Cabeçalho\nPara cria um dashboard no Quarto basta que seja escolhido o formato ‘dashboard’.\n---\ntitle: \"Dashboard\"\nformat: dashboard\n---",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introdução</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html#marcações-de-páginas",
+    "href": "intro.html#marcações-de-páginas",
+    "title": "1  Introdução",
+    "section": "1.3 Marcações de Páginas",
+    "text": "1.3 Marcações de Páginas\nAs marcações para criação de páginas são feitas com cabeçalhos de nível 1.\n---\ntitle: \"Dashboard\"\nformat: dashboard\n---\n\n# Pág. 1\n\n```{r}\nhist(mtcars$hp)\n```\nEste pequeno código após “renderizado” pelo Quarto gerará um dashboard conforme a imagem abaixo:",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introdução</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html#linhas-e-colunas",
+    "href": "intro.html#linhas-e-colunas",
+    "title": "1  Introdução",
+    "section": "1.4 Linhas e Colunas",
+    "text": "1.4 Linhas e Colunas\nAs linhas e colunas a serem inseridas são usadas com cabeçalho de nível 2. O padrão é orientação em linhas.\n---\ntitle: \"Dashboard\"\nformat: dashboard\n---\n\n# Pág. 1\n\n## Coluna 1\n\n```{r}\nhist(mtcars$hp)\n```\n\n## Coluna 2\n\n```{r}\nhist(mtcars$mpg)\n```\nApós “renderizado”:\n\n\nÚltima atualização: r format(file.info('intro.qmd')$mtime, '%d/%m/%Y - %H:%M:%S')\n\n\n\n\nTableau. s.d. “What is a dashboard? A complete overview”. https://www.tableau.com/learn/articles/dashboards/what-is.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introdução</span>"
+    ]
   },
   {
     "objectID": "referencias.html",
     "href": "referencias.html",
     "title": "Referências",
     "section": "",
-    "text": "Tableau. n.d. “What Is a Dashboard? A Complete Overview.”\nhttps://www.tableau.com/learn/articles/dashboards/what-is."
+    "text": "Tableau. n.d. “What Is a Dashboard? A Complete Overview.”\nhttps://www.tableau.com/learn/articles/dashboards/what-is.",
+    "crumbs": [
+      "Referências"
+    ]
   }
 ]
