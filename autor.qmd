@@ -1,3 +1,7 @@
+---
+engine: knitr
+---
+
 # Sobre o Autor {.unnumbered}
 
 [Luís Gustavo Schuck](http://lattes.cnpq.br/0794590310791580 "Lattes") é aluno do curso de pós-graduação em **Ciência de Dados e Big Data** da Puc-Minas. É formado em **Análise e Desenvolvimento de Sistemas** (2023) pela Universidade Feevale e em **Gestão Financeira** (2013) pelo Centro Universitário Internacional - Uninter. Possui **Especialização em Business Analytics** (2021) pela Universidade Federal do Rio Grande do Sul - UFRGS, **MBA** **em Administração e Finanças** (2017) pelo Centro Universitário Internacional - Uninter e **MBA em Gestão Bancária** (2015) pelo Centro Universitário Leonardo da Vinci - Uniasselvi. Possui certificação **ANBIMA CPA-10** (Certificação Profissional ANBIMA Série-10).

@@ -1,3 +1,7 @@
+---
+engine: knitr
+---
+
 # Prefácio {.unnumbered}
 
 Este é um livro sobre como criar Dashboards com [Quarto](https://quarto.org) na linguagem R. O Quarto permite a criação de Dashboards em outras linguagens, mas aqui será tratado exclusivamente sobre a linguagem R.

@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Criando Dashboards com Quarto",
     "section": "",
-    "text": "Prefácio\nEste é um livro sobre como criar Dashboards com Quarto na linguagem R. O Quarto permite a criação de Dashboards em outras linguagens, mas aqui será tratado exclusivamente sobre a linguagem R.\nO foco é como criar dashboards que não demandem de um servidor, ou seja, os dados são armazenados exclusivamente em um arquivo HTML.\n\nÚltima atualização: r format(file.info('index.qmd')$mtime, '%d/%m/%Y - %H:%M:%S')",
+    "text": "Prefácio\nEste é um livro sobre como criar Dashboards com Quarto na linguagem R. O Quarto permite a criação de Dashboards em outras linguagens, mas aqui será tratado exclusivamente sobre a linguagem R.\nO foco é como criar dashboards que não demandem de um servidor, ou seja, os dados são armazenados exclusivamente em um arquivo HTML.\n\nÚltima atualização: 22/09/2024 - 19:43:07",
     "crumbs": [
       "Prefácio"
     ]
@@ -14,7 +14,7 @@
     "href": "autor.html",
     "title": "Sobre o Autor",
     "section": "",
-    "text": "Luís Gustavo Schuck é aluno do curso de pós-graduação em Ciência de Dados e Big Data da Puc-Minas. É formado em Análise e Desenvolvimento de Sistemas (2023) pela Universidade Feevale e em Gestão Financeira (2013) pelo Centro Universitário Internacional - Uninter. Possui Especialização em Business Analytics (2021) pela Universidade Federal do Rio Grande do Sul - UFRGS, MBA em Administração e Finanças (2017) pelo Centro Universitário Internacional - Uninter e MBA em Gestão Bancária (2015) pelo Centro Universitário Leonardo da Vinci - Uniasselvi. Possui certificação ANBIMA CPA-10 (Certificação Profissional ANBIMA Série-10).\nAtualmente atua como Analista na Unidade de Estratégia e Inteligência de Crédito do Banco do Estado do Rio Grande do Sul (Banrisul).\nUtiliza R desde 2017.\n\nÚltima atualização: r format(file.info('autor.qmd')$mtime, '%d/%m/%Y - %H:%M:%S')",
+    "text": "Luís Gustavo Schuck é aluno do curso de pós-graduação em Ciência de Dados e Big Data da Puc-Minas. É formado em Análise e Desenvolvimento de Sistemas (2023) pela Universidade Feevale e em Gestão Financeira (2013) pelo Centro Universitário Internacional - Uninter. Possui Especialização em Business Analytics (2021) pela Universidade Federal do Rio Grande do Sul - UFRGS, MBA em Administração e Finanças (2017) pelo Centro Universitário Internacional - Uninter e MBA em Gestão Bancária (2015) pelo Centro Universitário Leonardo da Vinci - Uniasselvi. Possui certificação ANBIMA CPA-10 (Certificação Profissional ANBIMA Série-10).\nAtualmente atua como Analista na Unidade de Estratégia e Inteligência de Crédito do Banco do Estado do Rio Grande do Sul (Banrisul).\nUtiliza R desde 2017.\n\nÚltima atualização: 22/09/2024 - 19:43:05",
     "crumbs": [
       "Sobre o Autor"
     ]
@@ -54,7 +54,7 @@
     "href": "intro.html#linhas-e-colunas",
     "title": "1  Introdução",
     "section": "1.4 Linhas e Colunas",
-    "text": "1.4 Linhas e Colunas\nAs linhas e colunas a serem inseridas são usadas com cabeçalho de nível 2. O padrão é orientação em linhas.\n---\ntitle: \"Dashboard\"\nformat: dashboard\n---\n\n# Pág. 1\n\n## Coluna 1\n\n```{r}\nhist(mtcars$hp)\n```\n\n## Coluna 2\n\n```{r}\nhist(mtcars$mpg)\n```\nApós “renderizado”:\n\n\nÚltima atualização: r format(file.info('intro.qmd')$mtime, '%d/%m/%Y - %H:%M:%S')\n\n\n\n\nTableau. s.d. “What is a dashboard? A complete overview”. https://www.tableau.com/learn/articles/dashboards/what-is.",
+    "text": "1.4 Linhas e Colunas\nAs linhas e colunas a serem inseridas são usadas com cabeçalho de nível 2. O padrão é orientação em linhas.\n---\ntitle: \"Dashboard\"\nformat: dashboard\n---\n\n# Pág. 1\n\n## Coluna 1\n\n```{r}\nhist(mtcars$hp)\n```\n\n## Coluna 2\n\n```{r}\nhist(mtcars$mpg)\n```\nApós “renderizado”:\n\n\nÚltima atualização: 22/09/2024 - 19:43:10\n\n\n\n\nTableau. s.d. “What is a dashboard? A complete overview”. https://www.tableau.com/learn/articles/dashboards/what-is.",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introdução</span>"
     ]

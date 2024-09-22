@@ -9,6 +9,13 @@ book:
   title: "Criando Dashboards com Quarto"
   author: "Luís Gustavo Schuck"
   date: today
+
+  sidebar:
+    collapse-level: 1
+  repo-url: https://github.com/lgschuck/quarto_dashboard
+  
+  downloads: [pdf]
+
   chapters:
     - index.qmd
     - autor.qmd
@@ -19,6 +26,10 @@ bibliography: referencias.bib
 
 format:
   html:
-    theme: cosmo
- 
+    theme:
+      light: [cosmo]
+      dark: [slate]
 
+  pdf:
+    documentclass: scrreprt
+ 
